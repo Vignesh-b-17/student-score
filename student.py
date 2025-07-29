@@ -32,6 +32,6 @@ def predict_score():
     e = int(input("Extra Curricular (1=yes, 0=no): "))
 
     new_pred = model.predict([[h, a, s, i, p, e]])
-    print(f"🎯 Predicted Final Score: {new_pred[0]:.2f}")
+    print(f" Predicted Final Score: {new_pred[0]:.2f}")
 
 predict_score()
